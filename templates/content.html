@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block cont %}
+
+	{% for content in contents %}
+				<hr>
+				<div class="content">
+					
+					<div class="content-subject-all">
+						<div class="line">
+							Subject: <span class="content-subject">{{ content.subject }}</span>
+						</div>
+						<div>	
+					 		Posted: <span class="content-created">{{ content.created.strftime('%Y-%m-%d %H:%M %a') }}</span> 
+					 	</div>
+					</div>
+
+					<p>{{ content.content }}</p>
+					
+				</div>
+	{% endfor %}
+
+{% endblock %}

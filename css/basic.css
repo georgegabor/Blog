@@ -1,0 +1,103 @@
+form {
+	padding-left: 35px;
+	margin: 15px;
+}
+
+body {
+	background-color: lightgray;
+	width: 100%;
+	margin: 0px ;
+	padding: 0px;
+}
+
+.error {
+	margin: 5px;
+	color: red;
+}
+
+label {
+	display: block;
+	font-size: 20px;
+}
+
+input[type=text] {
+	width: 400px;
+	font-size: 20px;
+	padding: 2px;
+}
+
+textarea {
+	width: 400px;
+	height: 200px;
+	font-size: 17px;
+}
+
+input[type=submit] {
+	font-size: 17px;
+}
+
+hr {
+	width: 85%;
+	margin: 10px ;
+	color: gray;
+}
+
+.content  {
+	margin-top: 20px;
+	width: 70%;
+}
+
+.content-subject-all {
+	font-weight: bold;
+	font-size: 20px;
+	color: blue;
+	position: relative;
+	padding: 3px;
+}
+
+.content-subject {
+	font-style: italic;
+	color: black;
+}
+
+.content-created {
+	font-style: italic;
+	color: black;
+}
+
+div {
+	margin: 5px;
+}
+
+.line {
+	width: 50%;
+	float: left;
+}
+
+#a1 {
+	text-decoration: none;
+}
+
+#a2 {
+	float: right;
+	color: red;
+	margin: 20px;
+	font-size: 17px;
+}
+
+
+h1 {
+	text-align: center;
+	background-color: darkgrey;
+	margin: 0px;
+	height:  45px;
+	padding: 20px;
+}
+
+h2 {
+	width: 70%;
+}
+
+p {
+	margin-left: 25px;
+}
